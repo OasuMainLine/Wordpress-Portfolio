@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/badge",
+  "version": "0.1.0",
+  "title": "Badge",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false,
+    "color": {
+      "background": true
+    }
+  },
+  "textdomain": "badge",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "text": {
+      "type": "string",
+      "source": "text",
+      "selector": ".badge-text"
+    }
+  }
+}

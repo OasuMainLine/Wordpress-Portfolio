@@ -1,0 +1,16 @@
+# Ignore wordpress content directories 
+uploads
+upgrade
+
+
+# Ignore all themes, except of the parent and child
+themes/*
+!themes/blockskit
+!themes/blockskit-child
+
+# Ignore all plugins, except of the portfolio-addons
+plugins/*
+!plugins/portfolio-addons
+
+# Ignore vs code preferences
+.vscode

@@ -1,0 +1,26 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.editor-wrapper {
+	min-width: fit-content;
+	width: 4rem !important;
+}
+
+.badge {
+	width: fit-content !important;
+	padding: 0.2rem 0.1rem;
+	display: block !important;
+}
+.badge-text {
+	display: flex;
+	flex-direction: column;
+	width: 4rem;
+}
+.badge-text > div {
+	display: contents !important;
+	min-width: fit-content;
+	width: 4rem;
+}

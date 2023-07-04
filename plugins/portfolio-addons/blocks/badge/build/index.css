@@ -1,0 +1,35 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.editor-wrapper {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 4rem !important;
+}
+
+.badge {
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  padding: 0.2rem 0.1rem;
+  display: block !important;
+}
+
+.badge-text {
+  display: flex;
+  flex-direction: column;
+  width: 4rem;
+}
+
+.badge-text > div {
+  display: contents !important;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 4rem;
+}
+
+/*# sourceMappingURL=index.css.map*/

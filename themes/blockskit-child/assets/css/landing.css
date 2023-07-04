@@ -1,0 +1,10 @@
+.tool-list{
+    list-style: none;
+}
+
+.has-hover-btn {
+    transition: transform ease-in-out 200ms;
+}
+.has-hover-btn:hover{
+    transform: scale(1.1);
+}
